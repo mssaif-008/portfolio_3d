@@ -4,7 +4,7 @@ import { Canvas } from '@react-three/fiber';
 import CanvasLoader from '../Loader';
 
 const Lambo = ({ isMobile }) => {
-  const lambo = useGLTF('/lambo/scene.gltf');
+  const lambo = useGLTF('../../assets/3d_models/lambo/scene.gltf');
   return (
     <primitive
       object={lambo.scene}
