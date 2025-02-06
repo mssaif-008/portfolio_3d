@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom"
+import { BrowserRouter, HashRouter } from "react-router-dom"
 import {About, Contact,
   Hero, Navbar, Tech, Works , 
 } from "./components"
@@ -11,7 +11,7 @@ const  App= ()=> {
   return (
     
 
-    <BrowserRouter>
+    <HashRouter>
     <div className="core">
       <div className="core-in">
         <Navbar />
@@ -26,7 +26,7 @@ const  App= ()=> {
         
       </div>
     </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
