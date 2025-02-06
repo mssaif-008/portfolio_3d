@@ -1,0 +1,25 @@
+.section-wrap {
+    max-width: 80rem; /* Equivalent to Tailwind's max-w-7xl (1120px) */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 0;
+    padding: 10px 6px;
+    
+    
+  }
+  .hash-span {
+    display: block;
+    position: relative;
+    top: -80px; /* Adjust this based on your navbar height */
+    visibility: hidden;
+    
+  }
+  
+
+  @media (min-width: 640px) { /* Tailwind's sm breakpoint */
+    .section-wrap {
+      padding: 16px 16px; /* sm:py-16 sm:px-16 */
+    }
+  }
+ 

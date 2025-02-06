@@ -1,0 +1,63 @@
+.overview-para{
+    margin-top: 16px;
+    color: #6c757d; 
+    font-size: 17px;
+    max-width: 48rem; 
+    line-height: 30px;
+  }
+  .stack-cards{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+  .full-about{
+   
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+  .skill-card {
+    width: 100%;
+  }
+  .skill-motion{
+    width:100%;
+    padding:1px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right , #8aaaa6 , #ff00ff);
+  }
+  :root {
+    --tertiary: #09032b; 
+  }
+  
+  .skill-box {
+    
+    background-color: var(--tertiary); 
+    border-radius: 20px;
+    padding: 5px 12px;
+    min-height: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  .skill-text{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .skill-icon{
+    width: 60px;
+    height: 60px; 
+    object-fit: contain;
+
+  }
+  
+  @media (min-width: 475px) { 
+    .skill-card {
+      width: 250px;
+    }
+  }
+  

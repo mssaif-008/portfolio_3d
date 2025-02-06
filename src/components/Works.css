@@ -1,0 +1,135 @@
+
+.section-head-text {
+    color: white; 
+    font-weight: 900; 
+    font-size: 50px; 
+  
+    
+    @media (max-width: 475px) { 
+      font-size: 40px;
+    }
+    @media (min-width: 640px) { 
+      font-size: 50px;
+    }
+    @media (min-width: 768px) { 
+      font-size: 60px;
+    }
+  }
+  
+  .section-sub-text {
+    text-transform: uppercase; 
+    letter-spacing: 0.05em; 
+    font-size: 30px;
+    color: var(--secondary, #6c757d); 
+  
+   
+    @media (min-width: 640px) { 
+      font-size: 18px;
+    }
+  }
+  .project-description {
+    margin-top: 12px; 
+    color: var(--secondary, #6c757d); 
+    font-size: 17px; 
+    max-width: 48rem; 
+    line-height: 30px;
+}
+.project-desc-container{
+    width: 100%;
+    display: flex;
+}
+.project-cards{
+    margin-top: 5rem;
+    display:flex;
+    flex-wrap: wrap;
+    gap:1.75rem;
+    padding-bottom: 4vh;
+}
+.the-project{
+    background-color: #0f0831;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    width:100%;
+
+    @media(min-width: 640px){
+        width: 360px;
+    }
+}
+.the-project-back{
+    position: relative;
+    width:100%;
+    height:230px;
+
+
+}
+.project-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   border-radius: 1rem;
+}
+
+.the-project-imgdesc{
+    position: absolute;
+    inset: 0;
+    display:flex;
+    justify-content: flex-end;
+    margin: 0.75rem;
+
+}
+.the-project-imgdesc-hover{
+    background: linear-gradient(to right, #000000, #434343); 
+    width: 2.5rem; 
+    height: 2.5rem; 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    cursor: pointer; 
+
+}
+.the-project-imgdesc:hover .the-project-imgdesc-hover{
+    transform:scale(1.05);
+}
+.github-img{
+    width:50%;
+    height: 50%;
+    object-fit:contain;
+}
+.ind-project{
+    margin-top: 1.25rem;
+}
+.project-name {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .project-description {
+    margin-top: 0.5rem;
+    color: rgb(70, 68, 66); 
+    font-size: 14px;
+  }
+  .tags-container {
+    margin-top: 1rem; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem; 
+  }
+  .tag {
+    font-size: 14px;
+  }
+  
+
+  .tag.red {
+    color: red;
+  }
+  
+  .tag.blue {
+    color: blue;
+  }
+  
+  .tag.green {
+    color: green;
+  }
+  
