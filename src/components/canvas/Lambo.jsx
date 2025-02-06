@@ -4,7 +4,8 @@ import { Canvas } from '@react-three/fiber';
 import CanvasLoader from '../Loader';
 
 const Lambo = ({ isMobile }) => {
-  const lambo = useGLTF('../../assets/3d_models/lambo/scene.gltf');
+  const lambo = useGLTF("./wallpaper_7680x2160_-_lamborghini_aventador_svj/scene.gltf");
+  
   return (
     <primitive
       object={lambo.scene}

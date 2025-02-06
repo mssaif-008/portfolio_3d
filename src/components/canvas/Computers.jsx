@@ -5,7 +5,8 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF('../../assets/3d_models/desktop_pc1/scene.gltf');
+  const computer = useGLTF("./gaming_setup_v2_low-poly/scene.gltf");
+
   const computerRef = useRef();
 
   // Apply rotation on each frame
