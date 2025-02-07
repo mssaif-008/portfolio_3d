@@ -16,10 +16,10 @@ const Hero = () => {
 
       <div className="hero-text">
         <h1 className="hero-head-text">
-          Hello Friend, I'm <span className="highlight-text"> Mohamed Saif M.S</span>
+          Hi, I'm <span className="highlight-text"> Mohamed Saif M S </span>
         </h1>
         <p className="hero-sub-text">
-          I build Web Apps & Solve Problems with Code. 
+         Building web apps, solving problems, and exploring AI.
         </p>
       </div>
       
