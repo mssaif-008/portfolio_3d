@@ -9,7 +9,8 @@ fs.readFile(filePath, 'utf8', (err, data) => {
     return;
   }
 
-  const result = data.replace(/eval/g, 'console.log');
+  // Replace all instances of eval with console.log
+  const result = data.replace(/eval\(/g, 'console.log(');
 
   fs.writeFile(filePath, result, 'utf8', (err) => {
     if (err) {
