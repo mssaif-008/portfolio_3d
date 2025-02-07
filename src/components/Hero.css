@@ -1,0 +1,144 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  padding-top: 8rem;
+}
+
+.hero-container {
+  position: absolute;
+  inset: 0;
+  top: 120px; 
+  max-width: 1120px; 
+  margin: 0 auto;
+  padding-left: 2rem; 
+  padding-right: 2rem; 
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1.25rem; 
+}
+
+.hero-icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.25rem; 
+}
+
+.hero-circle {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  background-color: #f6f1ed;
+}
+
+.hero-line {
+  width: 0.25rem;
+  height: 20rem;
+  background: linear-gradient(to bottom, #f7f1ec, rgba(145, 94, 255, 0));
+  padding-top: 2rem;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.hero-head-text {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left; 
+  text-shadow: 
+    2px 2px 0px rgb(0, 0, 0);
+}
+
+.highlight-text {
+  color: #9a0cc5;text-shadow: 
+  2px 2px 0px rgb(0, 0, 0);
+}
+
+.hero-sub-text {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  color: white;
+  margin-left: 0;
+  line-height: 1.6;
+  max-width: 30rem;
+}
+
+.sm-block-hidden {
+  display: none;
+}
+
+
+.scroll-indicator-container {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.scroll-indicator-link {
+  display: block;
+  width: 50px; 
+  height: 50px;
+}
+
+.scroll-indicator {
+  width: 35px;
+  height: 64px;
+  border-radius: 1.5rem;
+  border: 4px solid #915eff; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0.5rem;
+}
+
+.scroll-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #915eff;
+  margin-bottom: 4px;
+}
+
+
+@media (min-width: 640px) {
+  .sm-block-hidden {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .hero-head-text {
+    font-size: 2rem; 
+  }
+  .scroll-indicator-container {
+    bottom: 2.5rem;
+  }
+
+  .hero-sub-text {
+    font-size: 1rem; 
+  }
+
+  .hero-container {
+    top: 100px; 
+    padding-left: 1rem; 
+    padding-right: 1rem;  
+  }
+}

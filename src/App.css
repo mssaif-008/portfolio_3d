@@ -1,0 +1,13 @@
+.core {
+    position: relative; /* Equivalent to Tailwind's 'relative' */
+    z-index: 0; /* Equivalent to 'z-0' */
+    background-color: rgb(2, 2, 29); /* Default primary color */
+    padding: 1rem; /* Equivalent to 'p-4' */
+   /* Equivalent to 'text-white' */
+  }
+  .core-in {
+    background-image: url("assets/herobg.png"); /* Replace with your actual image path */
+    background-size: cover;  /* Equivalent to 'bg-cover' */
+    background-repeat: no-repeat;  /* Equivalent to 'bg-no-repeat' */
+    background-position: center;  /* Equivalent to 'bg-center' */
+  }

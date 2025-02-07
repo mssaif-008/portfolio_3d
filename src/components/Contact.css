@@ -1,0 +1,131 @@
+.contact-container {
+    margin-top: 3rem; 
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2.5rem;
+    overflow: hidden;
+   
+  }
+  
+  
+  @media (min-width: 1280px) {
+    .contact-container {
+      flex-direction: row; 
+      margin-top: 3rem; 
+    }
+  }
+.contact-box{
+    flex: 0.75;
+    background-color: #0f0831;
+    padding: 2rem;
+    border-radius: 1rem; 
+}  
+
+.contact-head {
+    color: white;
+    font-weight: 900; 
+    font-size: 50px;
+  }
+  
+  
+  @media (max-width: 640px) {
+    .contact-head {
+      font-size: 40px; 
+    }
+  }
+  
+  @media (min-width: 640px) and (max-width: 768px) { 
+    .contact-head {
+      font-size: 50px; 
+    }
+  }
+  
+  @media (min-width: 768px) { 
+    .contact-head {
+      font-size: 60px; 
+    }
+  }
+  
+ 
+  .contact-para {
+    font-size: 30px; 
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  
+ 
+  @media (min-width: 640px) { 
+    .contact-para {
+      font-size: 18px; 
+    }
+  }
+
+  .form-stuff{
+    
+        margin-top: 3rem; 
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+  }
+  .first-label{
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .label-name{
+    color:white;
+    font-weight:500;
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
+  .custom-input {
+    background-color: var(--tertiary-color); 
+    padding: 1rem 1.5rem; 
+    color: white; 
+    border-radius: 0.5rem; 
+    outline: none; 
+    border: none;
+    font-weight: 500; 
+  }
+  
+
+  .custom-input::placeholder {
+    color: var(--secondary-color); 
+  }
+  .send-button{
+    background-color: black; 
+    padding: 0.75rem 2rem; 
+    border-radius: 1rem; 
+    outline: none; 
+    width: fit-content; 
+    color: white; 
+    font-weight: bold; 
+    box-shadow: 0px 4px 6px var(--primary-color);
+
+
+  }
+  .lambo-container{
+    height: 350px;
+    flex: 0 0 auto;
+  }
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: row;
+    }
+  }
+  @media (min-width: 768px) { 
+    .lambo-container {
+      height: 550px; 
+    }
+  }
+  
+  
+  @media (min-width: 1280px) { 
+    .lambo-container {
+      flex: 1; 
+      height: auto;
+    }
+  }
+  
+  
