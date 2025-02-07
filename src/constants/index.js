@@ -26,7 +26,7 @@ api,
   threejs,
   postgresql,
   github,
-  
+  edubg
 } from "../assets";
 
 export const navLinks = [
@@ -235,4 +235,32 @@ const profiles = [
 
 ];
 
-export { services, technologies, projects,profiles };
+
+const education = [
+  {
+    title: "School",
+    company_name: "Gill Adarsh Matriculation Higher Secodary School",
+    icon:edubg,
+    
+    date: "2023-Passout",
+    points: [
+      "Higher-Secondary: 91%",
+     
+    ],
+
+  },
+  {
+    title: "B.E Computer Science",
+    company_name: "Meenakshi Sundararajan Engineering College",
+  
+    icon:edubg,
+    date: "2023-2027",
+    points: [
+      "GPA: 8.2",
+     
+    ],
+  },
+ 
+];
+
+export { services,education, technologies, projects,profiles };

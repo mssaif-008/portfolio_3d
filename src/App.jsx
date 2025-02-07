@@ -1,5 +1,5 @@
 import { BrowserRouter, HashRouter } from "react-router-dom"
-import {About, Contact,
+import {About, Contact,Education,
   Hero, Navbar, Tech, Works , 
 } from "./components"
 import './App.css'
@@ -20,6 +20,7 @@ const  App= ()=> {
       <About />
       <Tech />
       <Works />
+      <Education />
       
       <div className="relative z-0">
         <Contact />

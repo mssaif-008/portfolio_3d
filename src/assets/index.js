@@ -29,9 +29,9 @@ import reactjs from "./tech/reactjs.png";
 import arrow from './arrow.png'
 
 import threejs from "./tech/threejs.svg";
-import portfolio from "./portfolio.png"
+import portfolio from "./portfolio.png";
 
-
+import edubg from './edu-bg.png';
 
 
 import myLogo from "./myLogo.png";
@@ -47,6 +47,7 @@ export {
   backend,
   creator,
   mobile,
+  edubg,
   web,
   github,
   menu,
