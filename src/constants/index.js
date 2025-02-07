@@ -86,11 +86,7 @@ const technologies = [
     icon: postgresql
   },
   {
-<<<<<<< HEAD
-    name: "Express JS",
-=======
-    name: "Express",
->>>>>>> fc2204c208c2a8e5e227f3b2e9f89e7606c97db6
+    name: "Express-JS",
     icon: express,
     },
     {
@@ -106,11 +102,7 @@ const technologies = [
       icon: github2,
       },
       {
-<<<<<<< HEAD
         name: "Rest-API",
-=======
-        name: "API",
->>>>>>> fc2204c208c2a8e5e227f3b2e9f89e7606c97db6
         icon: api,
         },
   {
